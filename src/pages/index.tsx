@@ -29,7 +29,7 @@ export default function Home() {
           <p className="lead mt-3">
             Practice, improve, and get real-time feedback on your interview skills with our AI-based platform.
           </p>
-          <Button href="/interview" variant="light" size="lg" className="mt-4">
+          <Button href="/InterviewPage" variant="light" size="lg" className="mt-4">
             Start Your Mock Interview Now
           </Button>
         </Container>
