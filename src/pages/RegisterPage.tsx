@@ -1,5 +1,4 @@
 // pages/register.tsx
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import { FaUser, FaEnvelope, FaPhone, FaLock } from "react-icons/fa";
