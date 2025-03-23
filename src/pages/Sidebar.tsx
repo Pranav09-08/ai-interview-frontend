@@ -26,10 +26,28 @@ const Sidebar = ({ setActiveView }) => {
         <Button
           variant="link"
           className="text-white mb-3 w-100 text-start fs-5"
+          onClick={() => setActiveView('resume')}
+          style={{ textDecoration: 'none' }}
+        >
+          <FaCog className="me-3" /> Edit Resume
+        </Button>
+
+        <Button
+          variant="link"
+          className="text-white mb-3 w-100 text-start fs-5"
           onClick={() => setActiveView('settings')}
           style={{ textDecoration: 'none' }}
         >
           <FaCog className="me-3" /> Settings
+        </Button>
+
+        <Button
+          variant="link"
+          className="text-white mb-3 w-100 text-start fs-5"
+          onClick={() => setActiveView('face')}
+          style={{ textDecoration: 'none' }}
+        >
+          <FaCog className="me-3" /> Facial Expression
         </Button>
       </div>
     </div>

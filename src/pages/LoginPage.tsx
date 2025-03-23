@@ -106,10 +106,7 @@ const LoginPage = () => {
 
                 {/* Footer Links */}
                 <div className="d-flex justify-content-between">
-                  <a href="/forgot-password" className="text-decoration-none">
-                    Forgot Password?
-                  </a>
-                  <a href="/signup" className="text-decoration-none">
+                  <a href="/RegisterPage" className="text-decoration-none">
                     Register
                   </a>
                 </div>

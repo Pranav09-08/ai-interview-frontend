@@ -150,7 +150,7 @@ const RegisterPage = () => {
                 <div className="text-center">
                   <small className="text-muted">
                     Already have an account?{" "}
-                    <a href="/login" className="text-primary text-decoration-none">
+                    <a href="/LoginPage" className="text-primary text-decoration-none">
                       Log In
                     </a>
                   </small>
