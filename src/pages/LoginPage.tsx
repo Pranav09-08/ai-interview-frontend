@@ -59,8 +59,8 @@ const LoginPage = () => {
               transition={{ duration: 1.0 }}
               style={{ borderRadius: '0 1rem 1rem 0' }}
             >
-              <h3 className="text-center mb-4 text-primary fw-bold">AI Interview System</h3>
-              <p className="text-center text-muted mb-4">Sign in to enhance your interview skills</p>
+              <h3 className="text-center mb-4 text-primary fw-bold">Notelens</h3>
+              <p className="text-center text-muted mb-4">Sign in to Note Lens</p>
 
               {error && <div className="alert alert-danger text-center">{error}</div>}
 

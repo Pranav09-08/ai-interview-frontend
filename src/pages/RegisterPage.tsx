@@ -67,8 +67,8 @@ const RegisterPage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-center text-primary fw-bold mb-4">AI Interview System</h3>
-              <p className="text-center text-muted mb-3">Sign up to start enhancing your interview skills</p>
+              <h3 className="text-center text-primary fw-bold mb-4">Note Lens</h3>
+              <p className="text-center text-muted mb-3">Sign up to Note Lens</p>
 
               {error && <div className="alert alert-danger text-center fw-bold">{error}</div>}
 
